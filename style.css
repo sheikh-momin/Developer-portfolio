@@ -10,9 +10,8 @@ span{
   color: orange;
 }
 
-section{
+.flexible-container{
   display: flex;
-  margin-bottom: 20px;
 }
 .half-width{
   width: 50%;
@@ -34,9 +33,44 @@ section{
 .top-banner{
   background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 20px;
 }
 .medium-banner{
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-area{
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.h1{
+  text-align: center;
+}
+.time{
+  color: #FFA500;
+}
+.box{
+  width: 40%;
+  box-sizing:content-box;
+  box-shadow:5px 7px 32px 12px rgba(0,0,0,0.33);
+  margin-left: 7%;
+  padding: 10px 30px;
+  margin-bottom: 2px;
+  padding-bottom: 70px;
+}
+.top-box{
+  margin-left: 55%;
+  border-left: 7px solid red;
+}
+.bottom-box{
+  border-left: 7px solid blue;
+}
+.footer-div{
+  display: flex;
+}
+footer p{
+  padding-top: 150px ;
+  padding-left: 250px;
 }
